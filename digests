@@ -2,3 +2,6 @@ d1a17bb4c8c62960d7ae7ff352a3647bc3109b8989dae4ed7b51cf8a71048768
 
 [liveuser@localhost Downloads]$ sha256sum GPG_Suite-2022.1.dmg.sig 
 2faa4cafe25cf5a3c73cb4586d2916ede95aa13562f7a99c67281e62babc0897  GPG_Suite-2022.1.dmg.sig
+
+[liveuser@localhost Downloads]$ sha256sum GPGTools-00D026C4.asc 
+2eac24c4aaf921c6e3c7465090efe1bc12be4498974049b8ae268acb2d5ebcfa  GPGTools-00D026C4.asc
