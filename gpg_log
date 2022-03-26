@@ -1,0 +1,13 @@
+[liveuser@localhost Downloads]$ gpg --import GPGTools-00D026C4.asc 
+gpg: /home/liveuser/.gnupg/trustdb.gpg: trustdb created
+gpg: key 00D026C4: public key "GPGTools Team <team@gpgtools.org>" imported
+gpg: Total number processed: 1
+gpg:               imported: 1
+[liveuser@localhost Downloads]$ gpg --verify GPG_Suite-2022.1.dmg.sig GPG_Suite-2022.1.dmg
+gpg: Signature made Sun 06 Mar 2022 11:10:22 PM UTC using RSA key ID 0D9E43F5
+gpg: Good signature from "GPGTools Team <team@gpgtools.org>"
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 85E3 8F69 046B 44C1 EC9F  B07B 76D7 8F05 00D0 26C4
+     Subkey fingerprint: 8C31 E5A1 7DD5 D932 B448  FE1D E8A6 6448 0D9E 43F5
+[liveuser@localhost Downloads]$
